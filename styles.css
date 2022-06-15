@@ -1,1 +1,141 @@
+*{
+    margin: 0px;
+}
+body{
+    /* background-image: url('./image/bg-image.png'); */
+    /* margin: 10% 15%; */
+    /* height: 300px; */
+    background-color: rgba(200, 223, 238, 255);
+    height: auto;
+
+}
+.main-container{
+    width: 70%;
+    height: 270px;
+    margin: 5% 15%;
+    background-color:red;
+    /* margin-bottom: 20px; */
+}
+
+/* JOIN OUR COMMUNITY */
+.header_1{
+    background-color:white;
+    height: 100px;
+    padding: 20px 0px 0px 30px;
+    /* padding-top: 50px; */
+    font-size:200%;
+    font-weight:900;
+    color:rgb(20, 209, 209);
+}
+.h1-id{
+    padding-top: 30px;
+}
+
+/* 30 DAY TRIAL - HEADER */
+.header_2{
+    color: greenyellow;
+    background-color:white;
+    height: 50px;
+    /* padding: 20px 30px; */
+    padding-left: 30px;
+    font-size:150%;
+    font-weight:800;
+}
+
+/* PARAGRAPH LINE AFTER 30 DAY TRAIL */
+.header_3{
+    color: gray;
+    background-color:white;
+    height: 120px;
+    /* padding: 20px 30px; */
+    padding-left: 30px;
+    font-size:120%;
+    font-weight:700;
+
+}
+
+/* SUB-CONTAINER CONTAIN - LEFT AND RIGHT BLOCK */
+.sub-container{
+    width: 100%;
+    height: 300px;
+    background-color: aqua;
+    position: relative;
+}
+
+/* LEFT BLOCK OF SUB-CONTAINER */
+.left-block{
+    width:50%;
+    height: 300px;
+    background-color:rgb(27, 207, 207);
+    float: left;
+    position: relative;
+}
+
+/* RIGHT BLOCK OF SUB-CONTAINER */
+.right-block{
+    width:50%;
+    height: 300px;
+    background-color:rgb(7, 240, 248);
+    float: right;
+    position: relative;
+}
+
+/* CONTENTS OF RIGHT BLOCK OF SUB-CONTAINER */
+/* MONTHLY SUBSCRIPTION */
+#subcription{
+    padding: 40px 0px 10px 40px;
+    font-size: 30px;
+    font-weight:800;
+    color: white;
+}
+#dollar{
+    padding: 25px 40px;
+    font-size: 50px;
+    font-weight:800;
+    color:white;
+}
+#per-month{
+    font-size: 30px;
+    font-weight:800;
+    color:rgb(5, 146, 156);
+}
+#full-access{
+    padding: 25px 40px;
+    font-size:150%;
+    font-weight:800;
+    color:white;
+}
+#sign-up{
+    font-size:25px;
+    color:white;
+    margin-top: -10px;
+    background-color: greenyellow;
+    border: 0px solid yellowgreen;
+    border-radius: 5px;
+    padding: 10px 70px;
+}
+#sign-up:hover{
+    background-color: lightcoral;
+}
+
+#why-h3{
+    padding: 40px 40px;
+    font-size:40px;
+    color: white; 
+}
+.list-why-us{
+    padding: 0px 40px;
+    margin-left: 20px;
+    font-family:sans-serif;
+    line-height: 20px;
+}
+
+.foot{
+    height: 30px;
+    background-color: rgba(200, 223, 238, 255);
+}
+
+@media only screen and (max-width : 450px) {
+    .header_1, .left-block, .right-block {width: 100%; height: auto;}
+}
 
